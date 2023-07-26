@@ -44,7 +44,9 @@
    
 <header class=" w-11/12 lg:w-3/4 mx-auto ">
 
-    <div class="navbar mb-10 bg-base-100  bg-[#F85559] text-white rounded-full flex justify-between">
+    
+   
+      <div class="navbar mb-10 bg-base-100  bg-[#F85559] text-white rounded-full flex ">
         <div class="navbar-start hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li><a>Home</a></li>
@@ -87,7 +89,8 @@
           </div>
         </div>
       </div>
-   
+
+
 
 
     <section class="hero-section h"><div class="carousel w-full h-[80vh] ">
@@ -142,94 +145,147 @@
       </div></section>
 </header>
 
-      <main class="w-11/12 lg:w-3/4 mx-auto">
-        <section class="deal-of-the-day">
-           <div class="head-section"></div>
-           <div class="card-section grid grid-cols-4 gap-2">
-            <div class="card  bg-base-100 border-2 border-[#7f7d7d1a] ">
-                <figure class="px-10 pt-10">
-                  <img src="/images/fruit6.png" alt="Shoes" class="" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
-                  <p>Apples</p>
-                  <div class="rating py-3">
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  </div>
-                  <div class="card-actions">
-
-                    <a href="" class="text-red-400 py-3">Details</a>
-                  </div>
+      <main class="w-11/12 lg:w-3/4 mx-auto ">
+        <section class="deal-of-the-day my-20 ">
+           <div class=" mx-auto my-10 head-section flex flex-col lg:flex-row items-center justify-center lg:justify-between"> 
+            
+            <div class="text-section my-5 lg:my-1 mx-auto">
+              <h1 class="text-4xl font-bold text-center lg:text-left">Deal of the day</h1>
+              <p class="mx-auto lg:ml-0  my-3 text-sm font-light text-center w-3/5 lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div class="time-section flex-1">
+              <div class="grid grid-flow-col gap-20 lg:gap-5 text-center auto-cols-max">
+                <div class="flex flex-col ">
+                  <div class="flex flex-row items-center">
+                    <div><span class="countdown font-mono text-5xl">
+                     <span style="--value:29;"></span>
+                   </span></div> 
+                   <div><i class="fa-solid fa-ellipsis-vertical text-2xl ml-3"></i></div> 
+                   </div> 
+                <div>Days</div>
+              </div>
+                <div class="flex flex-col">
+                  <div class="flex flex-row items-center">
+                    <div><span class="countdown font-mono text-5xl">
+                     <span style="--value:25;"></span>
+                   </span></div> 
+                   <div><i class="fa-solid fa-ellipsis-vertical text-2xl ml-3"></i></div> 
+                   </div> 
+                  <div>Hours</div>
+                </div> 
+                <div class="flex flex-col">
+                  <div class="flex flex-row items-center">
+                    <div><span class="countdown font-mono text-5xl">
+                     <span style="--value:15;"></span>
+                   </span></div> 
+                   <div><i class="fa-solid fa-ellipsis-vertical text-2xl ml-3"></i></div> 
+                   </div> 
+                  <div>Minutes</div>
+                </div> 
+                <div class="flex flex-col">
+                  <div class="flex flex-row items-center">
+                    <div><span class="countdown font-mono text-5xl">
+                     <span style="--value:8;"></span>
+                   </span></div> 
+                  
+                   </div> 
+                  <div>Seconds</div>
                 </div>
               </div>
-            <div class="card  bg-base-100 border-2 border-[#7f7d7d1a] ">
-                <figure class="px-10 pt-10">
-                  <img src="/images/fruit1.png" alt="Shoes" class="" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
-                  <p>Apples</p>
-                  <div class="rating py-3">
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  </div>
-                  <div class="card-actions">
+            </div>
 
-                    <a href="" class="text-red-400 py-3">Details</a>
-                  </div>
+           </div>
+
+
+
+           <div class=" my-10 card-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3"> 
+              <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit6.png" alt="fruit" class=" m-0 p-0 w-24"/>
+            </figure>
+            <div class="card-body py-3 my-2 items-center text-center">
+              <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
+              <p class="mb-1 flex-none">Apples</p>
+              <div class="rating mb-2">
+                <i class="fa-solid fa-star text-red-400 text-xl"></i>
+                <i class="fa-solid fa-star-half-stroke text-red-400 text-xl"></i>
+                <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                <i class="fa-solid fa-star text-red-100 text-xl"></i>
+              </div>
+              <div class="card-actions">
+
+                <a href="" class="text-red-400 py-3">Details</a>
+              </div>
+            </div>
+              </div>
+          <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit7.png" alt="fruits" class=" m-0 p-0 w-28" />
+          </figure>
+          <div class="card-body py-3 my-2 items-center text-center">
+            <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
+            <p class="mb-1 flex-none">Orange</p>
+            <div class="rating mb-2">
+              <i class="fa-solid fa-star text-red-400 text-xl"></i>
+              <i class="fa-solid fa-star-half-stroke text-red-400 text-xl"></i>
+              <i class="fa-solid fa-star text-red-100 text-xl"></i>
+              <i class="fa-solid fa-star text-red-100 text-xl"></i>
+              <i class="fa-solid fa-star text-red-100 text-xl"></i>
+            </div>
+            <div class="card-actions">
+
+              <a href="" class="text-red-400 py-3">Details</a>
+            </div>
+          </div>
+             </div>
+             <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+              <figure class="px-10 pt-10">
+                <img src="/images/fruit8.png" alt="fruit" class=" m-0 p-0 w-28" />
+              </figure>
+              <div class="card-body py-3 my-2 items-center text-center">
+                <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
+                <p class="mb-1 flex-none">Red Dragon</p>
+                <div class="rating mb-2">
+                  <i class="fa-solid fa-star text-red-400 text-xl"></i>
+                  <i class="fa-solid fa-star-half-stroke text-red-400 text-xl"></i>
+                  <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                  <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                  <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                </div>
+                <div class="card-actions">
+  
+                  <a href="" class="text-red-400 py-3">Details</a>
                 </div>
               </div>
-            <div class="card  bg-base-100 border-2 border-[#7f7d7d1a] ">
-                <figure class="px-10 pt-10">
-                  <img src="/images/fruit1.png" alt="Shoes" class="" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
-                  <p>Apples</p>
-                  <div class="rating py-3">
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  </div>
-                  <div class="card-actions">
-
-                    <a href="" class="text-red-400 py-3">Details</a>
-                  </div>
                 </div>
+               <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit9.png" alt="fruit" class=" m-0 p-0 w-28" />
+            </figure>
+            <div class="card-body py-3 my-2 items-center text-center">
+              <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
+              <p class="mb-1 flex-none">Banana</p>
+              <div class="rating mb-2">
+                <i class="fa-solid fa-star text-red-400 text-xl"></i>
+                <i class="fa-solid fa-star-half-stroke text-red-400 text-xl"></i>
+                <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                <i class="fa-solid fa-star text-red-100 text-xl"></i>
+                <i class="fa-solid fa-star text-red-100 text-xl"></i>
               </div>
-            <div class="card  bg-base-100 border-2 border-[#7f7d7d1a] ">
-                <figure class="px-10 pt-10">
-                  <img src="/images/fruit1.png" alt="Shoes" class="" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
-                  <p>Apples</p>
-                  <div class="rating py-3">
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  </div>
-                  <div class="card-actions">
-
-                    <a href="" class="text-red-400 py-3">Details</a>
-                  </div>
-                </div>
+              <div class="card-actions">
+  
+                <a href="" class="text-red-400 py-3">Details</a>
               </div>
+            </div>
+               </div>
+          
             
         
            </div>
         </section>
       </main>
+
+      
 </body>
 </html>
