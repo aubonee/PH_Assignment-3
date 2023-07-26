@@ -48,7 +48,8 @@
   <!-------------------- Navigation Section Starts------------------------>
     
    
-      <div class="navbar mb-10 bg-base-100  bg-[#F85559] text-white rounded-full flex ">
+      <div class="navbar mb-10 bg-base-100  bg-[#F85559] text-white rounded-full  lg:flex ">
+
         <div class="navbar-start hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li><a>Home</a></li>
@@ -56,6 +57,26 @@
             <li><a>Shop</a></li>
             <li><a>All fruits</a></li>
           </ul>
+        </div>
+        
+        <div class="navbar-start lg:navbar-center flex text-xl ">
+          <div><img src="images/logo.png" alt=""></div> 
+          <div> <a class="">daisyUI</a></div> 
+         </div>
+      
+     
+
+        <div class=" navbar-center lg:navbar-end invisible lg:visible">
+          <div class="relative">
+            <input type="text" class="w-40 py-2 pl-8 pr-4 border rounded-full text-gray-800 input input-bordered  md:w-auto" placeholder="Search...">
+            <div class="absolute inset-y-0 right-3 pl-3 flex items-center pointer-events-none">
+             
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M18.9998 19L13.8028 13.803M13.8028 13.803C15.2094 12.3965 15.9996 10.4887 15.9996 8.49955C15.9996 6.51035 15.2094 4.60262 13.8028 3.19605C12.3962 1.78947 10.4885 0.999268 8.49931 0.999268C6.51011 0.999268 4.60238 1.78947 3.19581 3.19605C1.78923 4.60262 0.999023 6.51035 0.999023 8.49955C0.999023 10.4887 1.78923 12.3965 3.19581 13.803C4.60238 15.2096 6.51011 15.9998 8.49931 15.9998C10.4885 15.9998 12.3962 15.2096 13.8028 13.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
         </div>
         <div class="navbar-end lg:hidden">
           <div class="dropdown">
@@ -72,24 +93,10 @@
           
         </div>
        
-        <div class="navbar-start lg:navbar-center flex text-xl ">
-           <div><img src="images/logo.png" alt=""></div> 
-           <div> <a class="">daisyUI</a></div> 
-          </div>
+       
         
 
-        <div class="navbar-end invisible lg:visible">
-          <div class="relative">
-            <input type="text" class="w-40 py-2 pl-8 pr-4 border rounded-full text-gray-800 input input-bordered  md:w-auto" placeholder="Search...">
-            <div class="absolute inset-y-0 right-3 pl-3 flex items-center pointer-events-none">
-             
-              
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M18.9998 19L13.8028 13.803M13.8028 13.803C15.2094 12.3965 15.9996 10.4887 15.9996 8.49955C15.9996 6.51035 15.2094 4.60262 13.8028 3.19605C12.3962 1.78947 10.4885 0.999268 8.49931 0.999268C6.51011 0.999268 4.60238 1.78947 3.19581 3.19605C1.78923 4.60262 0.999023 6.51035 0.999023 8.49955C0.999023 10.4887 1.78923 12.3965 3.19581 13.803C4.60238 15.2096 6.51011 15.9998 8.49931 15.9998C10.4885 15.9998 12.3962 15.2096 13.8028 13.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-          </div>
-        </div>
+    
       </div>
       <!-------------------- Navigation Section Ends------------------------>
 
@@ -307,7 +314,9 @@
             <div class="z-10 content text-center lg:w-2/4  ">
                 <h1 class="text-3xl lg:text-5xl font-Lato font-bold text-white my-2">Meet the team</h1>
                 <p  class="text-xs font-Lato text-white my-2">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                <div class=" flex"></div>
+                <div class="grid">
+                  <div class="card"></div>
+                </div>
 
                 </button>
 
