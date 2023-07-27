@@ -13,7 +13,8 @@
              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
              <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&display=swap" rel="stylesheet">
      <script src="https://kit.fontawesome.com/34af142b44.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         <!-- custom css -->
 
     <script>
@@ -46,7 +47,7 @@
 
 
  <!-------------------- Navigation Section Starts------------------------>
- <div class="navbar mx-0 my-10 bg-base-100 lg:bg-[#F85559] lg:text-white rounded-full lg:flex ">
+ <div class="navbar mx-0 my-10  bg-base-100 lg:bg-[#F85559] lg:text-white rounded-full lg:flex ">
 
   <div class="navbar-start hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
@@ -59,12 +60,12 @@
 
   <div class="navbar-start lg:navbar-center flex text-xl ">
     <div class="ml-0 lg:ml-3"><img  src="images/logo.png" alt=""></div> 
-    <div> <h2 class="ml-2 text-xl lg:text-3xl font-semibold">Fruit Brust</h2></div> 
+    <div> <h2 class="ml-2 text-xl lg:text-3xl font-semibold">Fruit Burst</h2></div> 
    </div>
 
 
 
-  <div class=" navbar-center lg:navbar-end invisible lg:visible">
+  <div class=" navbar-center lg:navbar-end hidden lg:flex">
     <div class="relative">
       <input type="text" class="w-40 py-2 pl-8 pr-4 border rounded-full text-gray-800 input input-bordered  md:w-auto" placeholder="Search...">
       <div class="absolute inset-y-0 right-3 pl-3 flex items-center pointer-events-none">
@@ -102,9 +103,9 @@
 
 
   <!-------------------- Hero Section Starts------------------------>
-    <section class="hero-section h">
-      <div class="carousel w-full h-[80vh] ">
-        <div id="slide1" style="background-image: url(images/banner1.png);" class=" carousel-item relative flex-col justify-center items-center w-full" >
+    <section class="hero-section ">
+      <div class="carousel w-full min-h-[60vh] lg:h-[80vh] rounded-xl ">
+        <div id="slide1" style="background-image: url(images/banner1.png);" class=" carousel-item relative flex-col justify-center items-center w-full bg-center" >
             <div class=" z-0 absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#12121200]  to-[#121212] opacity-100"></div>
             <div class="z-10 content text-center lg:w-2/4  ">
                 <h1 class="text-3xl lg:text-5xl font-Lato font-extrabold text-white my-2">Exotic tastes at your doorstep</h1>
@@ -116,7 +117,7 @@
             <a href="#slide2" class="btn  bg-black text-white border-0 btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide2" style="background-image: url(images/banner2.png);" class=" carousel-item relative flex-col justify-center items-center w-full" >
+        <div id="slide2" style="background-image: url(images/banner2.png);" class=" carousel-item relative flex-col justify-center items-center w-full bg-center" >
             <div class=" z-0 absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#12121200]  to-[#121212] opacity-100"></div>
             <div class="z-10 content text-center lg:w-2/4  ">
                 <h1 class="text-3xl lg:text-5xl font-Lato font-extrabold text-white my-2">Exotic tastes at your doorstep</h1>
@@ -128,7 +129,7 @@
             <a href="#slide3" class="btn  bg-black text-white border-0 btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide3" style="background-image: url(images/banner3.png);" class=" carousel-item relative flex-col justify-center items-center w-full" >
+        <div id="slide3" style="background-image: url(images/banner3.png);" class=" carousel-item relative flex-col justify-center items-center w-full bg-center" >
             <div class=" z-0 absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#12121200]  to-[#121212] opacity-100"></div>
             <div class="z-10 content text-center lg:w-2/4  ">
                 <h1 class="text-3xl lg:text-5xl font-Lato font-extrabold text-white my-2">Exotic tastes at your doorstep</h1>
@@ -140,7 +141,7 @@
             <a href="#slide4" class="btn  bg-black text-white border-0 btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide4" style="background-image: url(images/banner4.png);" class=" carousel-item relative flex-col justify-center items-center w-full" >
+        <div id="slide4" style="background-image: url(images/banner4.png);" class=" carousel-item relative flex-col justify-center items-center w-full bg-center" >
             <div class=" z-0 absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#12121200]  to-[#121212] opacity-100"></div>
             <div class="z-10 content text-center lg:w-2/4  ">
                 <h1 class="text-3xl lg:text-5xl font-Lato font-extrabold text-white my-2">Exotic tastes at your doorstep</h1>
@@ -159,7 +160,7 @@
     <div class="w-[80px] text-center"><img src="images/fruit1.png" alt="">
       <p class="py-3">Strawberry</p>
     </div>
-    <div class="w-[70px] text-center"><img src="images/fruit2.png" alt="">
+    <div class="w-[65px] text-center"><img src="images/fruit2.png" alt="">
     <p class="py-3">Orange</p>
   </div>
     <div class="w-[80px] text-center"><img src="images/fruit3.png" alt="">
@@ -238,12 +239,12 @@
 
 
 
-           <div class=" my-10 card-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 lg:gap-3"> 
-              <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+           <div class=" my-10 card-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-3"> 
+              <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] mx-20 sm:mx-40 md:mx-5 lg:mx-0">
             <figure class="px-10 pt-10">
-              <img src="./images/fruit6.png" alt="fruit" class=" m-0 p-0 w-24"/>
+              <img src="./images/fruit6.png" alt="fruit" class=" m-0 p-0 -pt-1 w-24"/>
             </figure>
-            <div class="card-body py-3 my-2 items-center text-center">
+            <div class="card-body py-3 my-2 items-center text-center ">
               <h2 class="card-title py-3 px-2 border-b-2 border-[#1212121A]">12.90$ - 18.85$</h2>
               <p class="mb-1 flex-none">Apples</p>
               <div class="rating mb-2">
@@ -255,12 +256,12 @@
               </div>
               <div class="card-actions">
 
-                <a href="#fruit6" class="text-red-400 py-3">Details</a>
+                <a href="#fruit6" class="text-red-500 text-semibold py-3 font-medium">Details</a>
                 <!-- <a href="#fruit6" class="btn">open modal</a> -->
               </div>
             </div>
               </div>
-          <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+          <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] mx-20 sm:mx-40 md:mx-5 lg:mx-0 ">
           <figure class="px-10 pt-10">
             <img src="./images/fruit7.png" alt="fruits" class=" m-0 p-0 w-28" />
           </figure>
@@ -276,11 +277,11 @@
             </div>
             <div class="card-actions">
 
-              <a href="#fruit7" class="text-red-400 py-3">Details</a>
+              <a href="#fruit7" class="text-red-500 py-3 font-medium">Details</a>
             </div>
           </div>
              </div>
-             <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+             <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] mx-20 sm:mx-40 md:mx-5 lg:mx-0">
               <figure class="px-10 pt-10">
                 <img src="./images/fruit8.png" alt="fruit" class=" m-0 p-0 w-28" />
               </figure>
@@ -296,11 +297,11 @@
                 </div>
                 <div class="card-actions">
   
-                  <a href="#fruit8" class="text-red-400 py-3">Details</a>
+                  <a href="#fruit8" class="text-red-500 py-3 font-medium">Details</a>
                 </div>
               </div>
                 </div>
-               <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] ">
+               <div class="card h max lg:h-[400px] bg-base-100 border-2 border-[#7f7d7d1a] mx-20 sm:mx-40 md:mx-5 lg:mx-0">
             <figure class="px-10 pt-10">
               <img src="./images/fruit9.png" alt="fruit" class=" m-0 p-0 w-28" />
             </figure>
@@ -316,7 +317,7 @@
               </div>
               <div class="card-actions">
   
-                <a href="#fruit9" class="text-red-400 py-3">Details</a>
+                <a href="#fruit9" class="text-red-500 py-3 font-medium">Details</a>
               </div>
             </div>
                </div>
